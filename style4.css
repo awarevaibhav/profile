@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+   height: 100px;
+   width: 200px;
+
+   
+     align-items: center; 
+     text-align: center; 
+     background-color: rgb(83, 36, 98);
+     box-shadow: 20px 20px 20px 20px #ffff12;
+   
+    
+}
+.box1:hover{
+    font-display: center;
+    transition-property: all;
+     background-image: url(".vscode/@holi1.jpg");
+     
+      transform:translatex(60px) translatey(50px) scale(1.2) rotate(360deg) ; 
+     transition: all 6s ease-in 1s;
+     height: 40em;
+     width: 70em;
+     margin-right:50px;
+     @keyfrems{
+        0%{
+
+
+        }
+        100%{
+
+        }
+     }
+     
+
+
+    
+     
+
+    
+}
